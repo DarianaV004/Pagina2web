@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+}
+/*inicia section 1*/
+.section-1{
+    width: 100%;
+    height: 10 em;
+    background-color: linear-gradient(90deg,#ce37ce,#ff5500);
+    padding-top: 1.5em;
+}
+.header{
+    background-color: #daf7a6;
+    width: 100%;
+    height: 3.5em;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+width: 25%;
+height: 100%;
+}
+.menu{
+width: 75%;
+height: 100%;
+display: flex;
+flex-direction: row;
+justify-content: right;
+align-items:center;
+}
+.img img{
+    object-fit: cover;
+    height: 100%;
+}
+/*Finaliza section 1*/
